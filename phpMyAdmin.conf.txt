@@ -18,7 +18,7 @@ Alias /phpmyadmin /usr/share/phpMyAdmin
      <RequireAny>
        Require all granted
        #Require ip 127.0.0.1
-       Require ip ::1
+       #Require ip ::1
      </RequireAny>
    </IfModule>
    <IfModule !mod_authz_core.c>
